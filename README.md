@@ -1,6 +1,6 @@
 # Terraform: Email Notifications of unencrypted S3 Buckets
 
-This Terraform repository would provide a lambda which will scan S3 Buckets and turn off public access (ACL Public Bloc turned on). This lambda requires access to SSM Parameter.
+This Terraform repository would provide a lambda which will scan S3 Buckets and turn off public access (Public Block Access ACL enforced and turned on). This lambda requires access to SSM Parameter.
 
 ## Overview
 
