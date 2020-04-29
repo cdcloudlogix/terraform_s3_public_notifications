@@ -6,6 +6,8 @@ This Terraform repository would provide a lambda which will scan S3 Buckets and 
 
 ![Image](s3public.png?raw=true)
 
+You can also follow the following [guideline](https://medium.com/@obutterbach/enforcing-public-block-access-on-s3-bucket-automatically-9b4a167ce650) for more information
+
 ## Installation
 
 This is controlled and deployed by Terraform, just indicate the source module in the root of this repository. This module requires access to the following SSM parameter (StringList):
